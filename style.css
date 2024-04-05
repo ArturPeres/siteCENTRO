@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#redes-sociais {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    background-color: white;
+}
+
+#redes-sociais a img {
+    width: 32px;
+}
+
+nav {
+    width: 100vw;
+}
+
+li {
+    display: block;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    visibility: collaps;
+    height: 13px;
+    position: relative;
+    z-index: -1;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    right: -7px;
+    color: #54595f;
+    font-size: 23px;
+}
+
+.drop-down-MENU {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    background-color: white;
+}
+
+.drop-down-MENU .a {  
+    line-height: 2em;
+    display: block;
+    text-decoration: none;
+    color: #2f3336;
+    font-size: 23px;
+    text-align: center;
+}
+
+#menu-toggle:checked + .drop-down-MENU {
+    display: block;
+}
+
+#logo {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#lema {
+    text-align: center;
+    font-size: 22px;
+    color: #54595f;
+}
+
+.texto {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: #54595f;
+}
+
+#kardec-img {
+    width: 50vw;
+    height: 34vh;
+}
+
+.texto h2 {
+    margin-bottom: 1vh;
+    font-size: 30px;
+}
+
+.texto h3 {
+    font-size: 23px;
+    margin-bottom: 6vh;
+}
+
+#Endereço {
+    text-align: left;
+    font-size: 30px;
+    width: 80%;
+    margin-left: 10vw;
+    padding: 10px 0;
+}
+
+iframe {
+    width: 80vw;
+    height: 35vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#fundo {
+    background-color: #54595f;
+    height: 50vh;
+    color: white;
+}
