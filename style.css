@@ -114,11 +114,12 @@ label {
 .texto h2 {
     margin-bottom: 1vh;
     font-size: 30px;
+    margin-top: 3vh;
 }
 
 .texto h3 {
     font-size: 23px;
-    margin-bottom: 18vh;
+    margin-bottom: 15vh;
 }
 
 #Endereço {
